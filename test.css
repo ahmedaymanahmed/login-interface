@@ -1,0 +1,96 @@
+.my-p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 420px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .5);
+  border-radius: 15px;
+}
+
+body {
+  background-image: url("اماكن\ مصرية\ hdoaa.com\ \(50\).jpg");
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 35px;
+  background: none;
+  border: 0;
+  position: absolute;
+  top: 140px;
+  left: 50px;
+  border-bottom: 2px #e0b62a solid;
+  outline: none;
+  color: #fff;
+}
+
+input[type="password"] {
+  width: 250px;
+  height: 35px;
+  background: none;
+  border: 0;
+  position: absolute;
+  top: 190px;
+  left: 50px;
+  border-bottom: 2px #e0b62a solid;
+  outline: none;
+  color: #fff;
+}
+
+::placeholder {
+  color: #e0b62a;
+}
+
+input[type="submit"] {
+  position: absolute;
+  top: 305px;
+  left: 110px;
+  width: 130px;
+  height: 35px;
+  background-color: #e0b62a;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  color: #fff;
+  border-color: #e0b62a;
+
+}
+
+input[type="submit"]:hover {
+  color: #e0b62a;
+  background-color: #fff;
+
+}
+
+p {
+  position: absolute;
+  top: 360px;
+  left: 50px;
+  color: #e0b62a;
+  cursor: pointer;
+  font-family: sans-serif;
+
+}
+
+p:hover {
+  color: #fff;
+
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  font-family: sans-serif;
+  width: 100px;
+  height: 40p;
+  margin-left: 110px;
+  border-bottom: 2px #e0b62a solid;
+
+}
